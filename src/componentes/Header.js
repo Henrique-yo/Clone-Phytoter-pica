@@ -35,7 +35,7 @@ function Header(){
                     <li><Link to='/Cosmeticos_naturais' className={Styles.link}>COSMETICOS NATURAIS</Link></li>
                     <li><Link to='/Higiene_pessoal' className={Styles.link}>HIGIENE PESSOAL</Link></li>
                     <li><Link to='/Aromatizadores' className={Styles.link}>AROMATIZADORES</Link></li>
-                    <li><Link to='' className={Styles.link}>ACESSÓRIOS</Link></li>
+                    <li><Link to='/Acessorios' className={Styles.link}>ACESSÓRIOS</Link></li>
                 </ul>
             </nav>
 
