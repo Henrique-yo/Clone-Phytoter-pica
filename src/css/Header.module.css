@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: auto;
+}
+
+.link{
+    text-decoration: none;
+    color: #000;
+}
+
+.frete{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    background-color: #f5f5f5;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frete svg{
+    width: 25px;
+    height: 23px;
+    margin-right: 5px;
+}
+
+.frete h4{
+    font-weight: normal;
+}
+.cont_header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 20px;
+    box-sizing: border-box;
+}
+.cont_header img{
+    width: 280px;
+}
+.infos{
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.infos input{
+    height: 20px;
+    border: 1px solid #999;
+    border-radius: 40px;
+    padding: 5px;
+    margin-right: 20px;
+}
+.infos p{
+    height: 20px;
+    border: 1px solid #999;
+    border-radius: 40px;
+    padding: 5px 10px;
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infos p:hover{
+    background-color: #98b020;
+    color: #fff;
+}
+
+
+.infos svg:nth-child(1){
+    width: 15px;
+    height: 15px;
+    background-color: rgb(63, 63, 63);
+    color: #fff;
+    border-radius: 50%;
+    margin-left: 10px;
+    padding: 3px;
+}
+.infos svg:nth-child(3){
+    width: 35px;
+    height: 35px;
+}
+.infos svg:nth-child(4){
+    width: 25px;
+    height: 30px;
+}
+.menu{
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    font-size: 14px;
+    color: #4b4b4b;
+}

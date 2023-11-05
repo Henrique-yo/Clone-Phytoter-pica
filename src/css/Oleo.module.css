@@ -1,0 +1,22 @@
+*{
+    font-size: 15px;
+}
+
+.cont_prod{
+    width: 230px;
+}
+.cont_prod img{
+    width: 100%;
+}
+
+.risc{
+    text-decoration: line-through;
+}
+
+.preco_novo{
+    color: #98b020;
+}
+
+.parc_oleo{
+    font-size: 12px;
+}

@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.notifica{
+    width: 100%;
+    display: flex;
+    margin: 30px;
+    background: #f5f5f5;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.cont_news{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.encurtar{
+    width: 250px;
+    font-weight: normal;
+}
+.encurtar h3{ 
+    font-weight: normal;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+.encurtar h5{ 
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.notifica input{
+    width: 350px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    
+}
+.notifica input::placeholder{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 10px;
+    letter-spacing: .05em;
+    color: #333;
+    padding: 10px;
+    
+}
+
+.news{
+    width: 350px;
+}
+
+.news h5{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: #fff; 
+    background: #98b020;
+    border-radius: 38px;
+    border: 1px solid #98b020;
+    outline: none;
+    transition: all .3s;
+    padding: 10px;
+}
+
+
+.cont_contatos{
+    display: flex;
+    font-weight: normal;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.cont_contatos h4{
+    font-weight: normal;
+    cursor: pointer;
+}
+.cont_contatos p{
+    color: #585858;
+    cursor: pointer;
+    line-height: 25px;
+}
