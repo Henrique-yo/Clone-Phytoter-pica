@@ -8,6 +8,7 @@ import Sinergias from './componentes/Sinergias';
 import Cosmeticos_naturais from './componentes/Cosmeticos_naturais';
 import Higiene_pessoal from './componentes/Higiene_pessoal';
 import Aromatizadores from './componentes/Aromatizadores';
+import Acessorios from './componentes/Acessorios';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -24,6 +25,7 @@ function App() {
           <Route path='/Cosmeticos_naturais' element={<Cosmeticos_naturais/>} />  
           <Route path='/Higiene_pessoal' element={<Higiene_pessoal/>} />  
           <Route path='/Aromatizadores' element={<Aromatizadores/>} />  
+          <Route path='/Acessorios' element={<Acessorios/>} />  
             
           </Routes>
         <Footer/>
