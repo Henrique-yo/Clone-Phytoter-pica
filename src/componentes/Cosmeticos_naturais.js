@@ -15,8 +15,8 @@ function Cosmeticos_naturais(){
     return(
         
                 <><Banner_prop
-            nome_oleos='Óleos Vegetais'
-            p_oleos='Óleos vegetais são gorduras extraídas de grãos, sementes e polpas de frutos. São formados por ácidos graxos a maior parte insaturados, que são os ômega 3, 6 e 9 e vitaminas A, D e E, dentre outras substâncias.' />
+            nome_oleos='Cosméticos Naturais'
+            p_oleos='Produzidos com ingredientes como óleos essenciais, óleos e manteigas vegetais típicas do Brasil, os cosméticos naturais da Phytoterápica são livres de petroquímicos, parabenos, sulfatos e essências sintéticas. Benéficos para a saúde e para o meio ambiente, possuem excelente compatibilidade com o corpo humano, penetrando de maneira completa na pele e nos cabelos.' />
                 <main>
                     <div className={Styles.oleos}>
                         <Oleo_prop

@@ -1,99 +1,100 @@
 /* eslint-disable react/jsx-pascal-case */
 import Banner_prop from './Banner_prop'
 import Oleo_prop from './Oleo_prop'
-import Oleo_cami from '../img/vegetais/extrato_oleoso_de_camomila_alem.jpg'
-import Oleo_uva from '../img/vegetais/oleo-vegetal-semente-de-uva.jpg'
-import Oleo_abaca from '../img/vegetais/Mockup_Cartucho_OV_Abacate_cinz.jpg'
-import Oleo_jojo from '../img/vegetais/_leo_vegetal_de_jojoba.jpg'
-import Oleo_uva2 from '../img/vegetais/semente-uva-2.jpg'
-import Oleo_cale from '../img/vegetais/oleo-essencial-calendula-50ml-phytoterapica-cartucho-1000x1000.webp'
-import Oleo_balsa from '../img/vegetais/Mockup_Caixa_OV_Copaiba.jpg'
+import sab_lav from '../img/pessoal/sabonete_lavanda_e_rosa_mosqueta_100g_-_phytoterapica_1_.jpg'
+import sab_mel from '../img/pessoal/sabonete_melaleuca_gergelim_conj2.jpg'
+import sab_yla from '../img/pessoal/Mockup_Sabonete_Caixa_Ylang_Ylang_cinza.jpg'
+import sab_dent from '../img/pessoal/Mockup-Gel-Dental-Sangue-de-Dragao-Ecommerce.jpg'
+import sab_lima from '../img/pessoal/Mockup_Sabonete_Caixa_Limao_Siciliano_cinza.jpg'
+import sab_kit from '../img/pessoal/Kit_Miniaturas_Sabonetes_1000x1000px_Cinza.jpg'
+import sab_ment from '../img/pessoal/sabonete_menta_e_germe_de_trigo_100g_-_phytoterapica_1_.jpg'
+import sab_lemo from '../img/pessoal/sabonete-lemongrass-abacate_100g_phytoterapica_b.jpg'
 
 import Styles from '../css/Oleo_essenciais.module.css'
 
 function Higiene_pessoal(){
     return(
         
-                <><Banner_prop
-            nome_oleos='Óleos Vegetais'
-            p_oleos='Óleos vegetais são gorduras extraídas de grãos, sementes e polpas de frutos. São formados por ácidos graxos a maior parte insaturados, que são os ômega 3, 6 e 9 e vitaminas A, D e E, dentre outras substâncias.' />
+            <><Banner_prop
+                nome_oleos='Higiene Pessoal'
+                p_oleos='Linha de produtos com óleos essenciais: Sabonetes com óleos vegetais, creme dental adulto, gel dental infantil e enxaguante bucal com extratos naturais.' />
                 <main>
                     <div className={Styles.oleos}>
                         <Oleo_prop
 
-                            img_oleo={Oleo_cami}
-                            nome_oleo='Óleo Essencial De Lavanda (Gt. França) - 10ml'
-                            preco_ant='R$41,00'
-                            preco_novo='R$34,85'
-                            desc_prec= '-15'
-                            parc_oleo='(ou em até 3 x de R$ 11,61 sem juros)' 
+                            img_oleo={sab_lav}
+                            nome_oleo='Sabonete de Lavanda & Rosa Mosqueta - 100g'
+                            preco_ant='R$21,00'
+                            preco_novo='R$17,85'
+                            desc_prec='-15'
+                            parc_oleo='(ou em até 3 x de R$ 5,61 sem juros)'
                         />
                         <Oleo_prop
 
-                            img_oleo={Oleo_uva}
-                            nome_oleo='Óleo Essencial de Alecrim (qt. Cineol) - 10ml'
-                            preco_ant='R$60,00'
-                            preco_novo='R$51,00'
-                            desc_prec= '-15'
-                            parc_oleo='(ou em até 3 x de R$ 17,00 sem juros)' 
+                            img_oleo={sab_mel}
+                            nome_oleo='Sabonete de Melaleuca & Gergelim - 100g'
+                            preco_ant='R$21,00'
+                            preco_novo='R$17,00'
+                            desc_prec='-15'
+                            parc_oleo='(ou em até 3 x de R$ 5,00 sem juros)'
                         />
                         <Oleo_prop
 
-                            img_oleo={Oleo_abaca}
-                            nome_oleo='Óleo Essencial de Hortelã-Pimenta (Menta) - 10ml'
-                            preco_ant='R$52,00'
-                            preco_novo='R$44,20'
-                            desc_prec= '-15'
-                            parc_oleo='(ou em até 3 x de R$ 14,73 sem juros)' 
+                            img_oleo={sab_yla}
+                            nome_oleo='Sabonete Esfoliante Ylang Ylang & Coco - 100g'
+                            preco_ant='R$21,00'
+                            preco_novo='R$17,20'
+                            desc_prec='-15'
+                            parc_oleo='(ou em até 3 x de R$ 5,73 sem juros)'
                         />
                         <Oleo_prop
 
-                            img_oleo={Oleo_jojo}
-                            nome_oleo='Óleo Essencial de Melaleuca (Tea Tree) - 10mlv'
-                            preco_ant='R$50,00'
-                            preco_novo='R$42,00'
-                            desc_prec= '-15'
-                            parc_oleo='(ou em até 3 x de R$ 14,16 sem juros)
-                            ' 
+                            img_oleo={sab_dent}
+                            nome_oleo='Gel Dental Sangue de Dragão - 90g'
+                            preco_ant='R$30,00'
+                            preco_novo='R$25,00'
+                            desc_prec='-15'
+                            parc_oleo='(ou em até 3 x de R$ 8,16 sem juros)
+    '
                         />
                     </div>
                     <div className={Styles.oleos}>
                         <Oleo_prop
 
-                            img_oleo={Oleo_uva2}
-                            nome_oleo='Óleo Essencial De Gerânio - 5ml'
-                            preco_ant='R$48,00'
-                            preco_novo='R$40,00'
-                            desc_prec= '-15'
-                            parc_oleo='(ou em até 3 x de R$ 13,00 sem juros)' 
-                            />
-                            <Oleo_prop
+                            img_oleo={sab_lima}
+                            nome_oleo='Sabonete de Limão-Siciliano & Semente de Uva - 100g'
+                            preco_ant='R$21,00'
+                            preco_novo='R$17,00'
+                            desc_prec='-15'
+                            parc_oleo='(ou em até 3 x de R$ 5,00 sem juros)'
+                        />
+                        <Oleo_prop
 
-                            img_oleo={Oleo_abaca}
-                            nome_oleo='Óleo Essencial De Sâandalo - 5ml'
-                            preco_ant='R$63,00'
-                            preco_novo='R$53,00'
-                            desc_prec= '-15'
-                            parc_oleo='(ou em até 3 x de R$ 17,00 sem juros)' 
-                            />
-                            <Oleo_prop
+                            img_oleo={sab_kit}
+                            nome_oleo='Kit Miniaturas Sabonetes Vegetais'
+                            preco_ant='R$52,00'
+                            preco_novo='R$44,00'
+                            desc_prec='-15'
+                            parc_oleo='(ou em até 3 x de R$ 14,00 sem juros)'
+                        />
+                        <Oleo_prop
 
-                            img_oleo={Oleo_cale}
-                            nome_oleo='Óleo Essencial De Copaíba - 10ml'
-                            preco_ant='R$60,00'
-                            preco_novo='R$51,00'
-                            desc_prec= '-15'
-                            parc_oleo='(ou em até 3 x de R$ 17,00 sem juros)' 
-                            />
-                            <Oleo_prop
+                            img_oleo={sab_ment}
+                            nome_oleo='Sabonete de Menta & Germe de Trigo - 100g'
+                            preco_ant='R$21,00'
+                            preco_novo='R$17,00'
+                            desc_prec='-15'
+                            parc_oleo='(ou em até 3 x de R$ 5,00 sem juros)'
+                        />
+                        <Oleo_prop
 
-                            img_oleo={Oleo_balsa}
-                            nome_oleo='Óleo Essencial de Eucalipto Globulus - 10ml'
-                            preco_ant='R$60,00'
-                            preco_novo='R$51,00'
-                            desc_prec= '-15'
-                            parc_oleo='(ou em até 3 x de R$ 17,00 sem juros)' 
-                            />
+                            img_oleo={sab_lemo}
+                            nome_oleo='Sabonete de Lemongrass & Abacate - 100g'
+                            preco_ant='R$21,00'
+                            preco_novo='R$17,00'
+                            desc_prec='-15'
+                            parc_oleo='(ou em até 3 x de R$ 5,00 sem juros)'
+                        />
                     </div>
                     
                 </main>

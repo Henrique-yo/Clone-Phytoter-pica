@@ -1,13 +1,15 @@
 /* eslint-disable react/jsx-pascal-case */
 import Banner_prop from './Banner_prop'
 import Oleo_prop from './Oleo_prop'
-import Oleo_cami from '../img/vegetais/extrato_oleoso_de_camomila_alem.jpg'
-import Oleo_uva from '../img/vegetais/oleo-vegetal-semente-de-uva.jpg'
-import Oleo_abaca from '../img/vegetais/Mockup_Cartucho_OV_Abacate_cinz.jpg'
-import Oleo_jojo from '../img/vegetais/_leo_vegetal_de_jojoba.jpg'
-import Oleo_uva2 from '../img/vegetais/semente-uva-2.jpg'
-import Oleo_cale from '../img/vegetais/oleo-essencial-calendula-50ml-phytoterapica-cartucho-1000x1000.webp'
-import Oleo_balsa from '../img/vegetais/Mockup_Caixa_OV_Copaiba.jpg'
+import Comp_harm from '../img/sinergias/composto-essencial-harmonize-rollon.jpg'
+import Comp_equi from '../img/sinergias/composto-essencial-equilibrium.jpg'
+import Comp_citr from '../img/sinergias/composto-essencial-citrinos.jpg'
+import Comp_defe from '../img/sinergias/mockup_Defense_com_caixa.jpg'
+import Comp_insp from '../img/sinergias/composto-essencial-inspire.jpg'
+import Comp_dosh from '../img/sinergias/E-commerce_Mockups.jpg'
+import Comp_pitta from '../img/sinergias/E-commerce_Mockups3.jpg'
+import Comp_dosha from '../img/sinergias/E-commerce_Mockups2.jpg'
+
 
 import Styles from '../css/Oleo_essenciais.module.css'
 
@@ -15,23 +17,23 @@ function Sinergias(){
     return(
         
                 <><Banner_prop
-            nome_oleos='Óleos Vegetais'
-            p_oleos='Óleos vegetais são gorduras extraídas de grãos, sementes e polpas de frutos. São formados por ácidos graxos a maior parte insaturados, que são os ômega 3, 6 e 9 e vitaminas A, D e E, dentre outras substâncias.' />
+            nome_oleos='Sinergias'
+            p_oleos='Sinergia é a mistura dos óleos essenciais, um processo criativo que tem como objetivo combinar suas propriedades e componentes. Juntos esses componentes trabalham em equilíbrio e harmonia, intensificando o efeito desejado dessa mistura e potencializando os princípios ativos de cada óleo essencial.' />
                 <main>
                     <div className={Styles.oleos}>
                         <Oleo_prop
 
-                            img_oleo={Oleo_cami}
-                            nome_oleo='Óleo Essencial De Lavanda (Gt. França) - 10ml'
-                            preco_ant='R$41,00'
-                            preco_novo='R$34,85'
+                            img_oleo={Comp_harm}
+                            nome_oleo='Composto Essencial Harmonize Roll-On - 10ml'
+                            preco_ant='R$54,00'
+                            preco_novo='R$45,85'
                             desc_prec= '-15'
-                            parc_oleo='(ou em até 3 x de R$ 11,61 sem juros)' 
+                            parc_oleo='(ou em até 3 x de R$ 15,61 sem juros)' 
                         />
                         <Oleo_prop
 
-                            img_oleo={Oleo_uva}
-                            nome_oleo='Óleo Essencial de Alecrim (qt. Cineol) - 10ml'
+                            img_oleo={Comp_equi}
+                            nome_oleo='Composto Essencial Equilibrium - 15ml'
                             preco_ant='R$60,00'
                             preco_novo='R$51,00'
                             desc_prec= '-15'
@@ -39,8 +41,8 @@ function Sinergias(){
                         />
                         <Oleo_prop
 
-                            img_oleo={Oleo_abaca}
-                            nome_oleo='Óleo Essencial de Hortelã-Pimenta (Menta) - 10ml'
+                            img_oleo={Comp_citr}
+                            nome_oleo='Composto Essencial Citrinos - 15ml'
                             preco_ant='R$52,00'
                             preco_novo='R$44,20'
                             desc_prec= '-15'
@@ -48,7 +50,7 @@ function Sinergias(){
                         />
                         <Oleo_prop
 
-                            img_oleo={Oleo_jojo}
+                            img_oleo={Comp_defe}
                             nome_oleo='Óleo Essencial de Melaleuca (Tea Tree) - 10mlv'
                             preco_ant='R$50,00'
                             preco_novo='R$42,00'
@@ -60,39 +62,39 @@ function Sinergias(){
                     <div className={Styles.oleos}>
                         <Oleo_prop
 
-                            img_oleo={Oleo_uva2}
-                            nome_oleo='Óleo Essencial De Gerânio - 5ml'
-                            preco_ant='R$48,00'
-                            preco_novo='R$40,00'
+                            img_oleo={Comp_insp}
+                            nome_oleo='Composto Essencial Inspire Enfance - 15ml'
+                            preco_ant='R$68,00'
+                            preco_novo='R$57,00'
                             desc_prec= '-15'
-                            parc_oleo='(ou em até 3 x de R$ 13,00 sem juros)' 
+                            parc_oleo='(ou em até 3 x de R$ 19,00 sem juros)' 
                             />
                             <Oleo_prop
 
-                            img_oleo={Oleo_abaca}
-                            nome_oleo='Óleo Essencial De Sâandalo - 5ml'
-                            preco_ant='R$63,00'
-                            preco_novo='R$53,00'
+                            img_oleo={Comp_dosh}
+                            nome_oleo='Óleo de Massagem Para Dosha Vata - 100 ml'
+                            preco_ant='R$70,00'
+                            preco_novo='R$59,00'
                             desc_prec= '-15'
-                            parc_oleo='(ou em até 3 x de R$ 17,00 sem juros)' 
+                            parc_oleo='(ou em até 3 x de R$ 19,00 sem juros)' 
                             />
                             <Oleo_prop
 
-                            img_oleo={Oleo_cale}
-                            nome_oleo='Óleo Essencial De Copaíba - 10ml'
-                            preco_ant='R$60,00'
-                            preco_novo='R$51,00'
+                            img_oleo={Comp_harm}
+                            nome_oleo='Composto Essencial Harmonize - 15ml'
+                            preco_ant='R$64,00'
+                            preco_novo='R$54,00'
                             desc_prec= '-15'
-                            parc_oleo='(ou em até 3 x de R$ 17,00 sem juros)' 
+                            parc_oleo='(ou em até 3 x de R$ 18,00 sem juros)' 
                             />
                             <Oleo_prop
 
-                            img_oleo={Oleo_balsa}
-                            nome_oleo='Óleo Essencial de Eucalipto Globulus - 10ml'
-                            preco_ant='R$60,00'
-                            preco_novo='R$51,00'
+                            img_oleo={Comp_pitta}
+                            nome_oleo='Óleo de Massagem Para Dosha Pitta - 100 ml'
+                            preco_ant='R$70,00'
+                            preco_novo='R$59,00'
                             desc_prec= '-15'
-                            parc_oleo='(ou em até 3 x de R$ 17,00 sem juros)' 
+                            parc_oleo='(ou em até 3 x de R$ 19,00 sem juros)' 
                             />
                     </div>
                     
